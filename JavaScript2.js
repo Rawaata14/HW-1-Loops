@@ -55,11 +55,17 @@
 //     console.log(i);
 // //This loop shows values from 0 to 5 because it add 1 to i after comparing it with 5 
 
-//Task#8
-// for(let i = 0; i<5; i++)
+// //Task#8
+// // for(let i = 0; i<5; i++)
+// //     console.log(i);
+// //This loop well shows values from 0 to 4
+// for (let i = 0; i < 5; ++i)
 //     console.log(i);
-//This loop well shows values from 0 to 4
-for (let i = 0; i < 5; ++i)
+// //This loop well shows values from 0 to 4
+// //the two loops do the same thing
+
+//Task#9
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 1) continue;
     console.log(i);
-//This loop well shows values from 0 to 4
-//the two loops do the same thing
+}
