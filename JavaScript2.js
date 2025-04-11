@@ -29,8 +29,15 @@
 // } while (guess != 7);
 // alert("Bingo!! The number is " + secret);
 
-//Task#5
-for (let i = 1; i <= 30; i++) {
-    if (i % 3 == 0) continue;
-    console.log(i);
+// //Task#5
+// for (let i = 1; i <= 30; i++) {
+//     if (i % 3 == 0) continue;
+//     console.log(i);
+// }
+
+//Task#6
+let i = 3;
+while (i) {
+    alert(i--);
 }
+//הערך האחרון הוא 1 כי 0 מחזיר FALSE 
