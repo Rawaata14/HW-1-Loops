@@ -20,24 +20,29 @@
 //     console.log(num + ' x ' + i + ' = ' + num * i);
 // }
 
-// //Task#4
-// const secret = 7;
-// let guess = prompt("Enter your guess between 1 to 10: ");;
-// do {
-//     alert("Not correct! Try Agian");
-//     guess = prompt("Enter your guess between 1 to 10: ");
-// } while (guess != 7);
-// alert("Bingo!! The number is " + secret);
-
+//Task#4
+const secret = 7;
+let flag = true;
+let guess;
+for (let i = 0; flag; i++) {
+    guess = Number(prompt('Enter your guess between 1 and 10: '));
+    if (guess == secret) {
+        alert('Bingo!! You have guessed the number :)'); break;
+    }
+    else
+        alert("Try Again!!");
+}
 // //Task#5
 // for (let i = 1; i <= 30; i++) {
 //     if (i % 3 == 0) continue;
 //     console.log(i);
 // }
 
-//Task#6
-let i = 3;
-while (i) {
-    alert(i--);
-}
-//הערך האחרון הוא 1 כי 0 מחזיר FALSE 
+// //Task#6
+// let i = 3;
+// while (i) {
+//     alert(i--);
+// }
+// //הערך האחרון הוא 1 כי 0 מחזיר FALSE
+
+//Task#7
