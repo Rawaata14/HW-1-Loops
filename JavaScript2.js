@@ -20,11 +20,17 @@
 //     console.log(num + ' x ' + i + ' = ' + num * i);
 // }
 
-//Task#4
-const secret = 7;
-let guess = prompt("Enter your guess between 1 to 10: ");;
-do {
-    alert("Not correct! Try Agian");
-    guess = prompt("Enter your guess between 1 to 10: ");
-} while (guess != 7);
-alert("Bingo!! The number is " + secret);
+// //Task#4
+// const secret = 7;
+// let guess = prompt("Enter your guess between 1 to 10: ");;
+// do {
+//     alert("Not correct! Try Agian");
+//     guess = prompt("Enter your guess between 1 to 10: ");
+// } while (guess != 7);
+// alert("Bingo!! The number is " + secret);
+
+//Task#5
+for (let i = 1; i <= 30; i++) {
+    if (i % 3 == 0) continue;
+    console.log(i);
+}
