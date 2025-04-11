@@ -45,12 +45,21 @@
 // }
 // //הערך האחרון הוא 1 כי 0 מחזיר FALSE
 
-//Task#7
-// let i =0;
-// while(++i < 5)
+// //Task#7
+// // let i =0;
+// // while(++i < 5)
+// //     console.log(i);
+// //This loop shows values from 1 to 4 because it add 1 to i before comparing it with 5
+// let i = 0;
+// while (i++ < 5)
 //     console.log(i);
-//This loop shows values from 1 to 4 because it add 1 to i before comparing it with 5
-let i = 0;
-while (i++ < 5)
+// //This loop shows values from 0 to 5 because it add 1 to i after comparing it with 5 
+
+//Task#8
+// for(let i = 0; i<5; i++)
+//     console.log(i);
+//This loop well shows values from 0 to 4
+for (let i = 0; i < 5; ++i)
     console.log(i);
-//This loop shows values from 0 to 5 because it add 1 to i after comparing it with 5 
+//This loop well shows values from 0 to 4
+//the two loops do the same thing
