@@ -14,8 +14,17 @@
 // } while (isNaN(number) || number <= 0);
 // console.log("The number is: ", number);
 
-//Task#3
-let num = 7;
-for (let i = 1; i <= 10; i++) {
-    console.log(num + ' x ' + i + ' = ' + num * i);
-}
+// //Task#3
+// let num = 7;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(num + ' x ' + i + ' = ' + num * i);
+// }
+
+//Task#4
+const secret = 7;
+let guess = prompt("Enter your guess between 1 to 10: ");;
+do {
+    alert("Not correct! Try Agian");
+    guess = prompt("Enter your guess between 1 to 10: ");
+} while (guess != 7);
+alert("Bingo!! The number is " + secret);
