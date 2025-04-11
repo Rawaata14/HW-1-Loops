@@ -21,17 +21,17 @@
 // }
 
 //Task#4
-const secret = 7;
-let flag = true;
-let guess;
-for (let i = 0; flag; i++) {
-    guess = Number(prompt('Enter your guess between 1 and 10: '));
-    if (guess == secret) {
-        alert('Bingo!! You have guessed the number :)'); break;
-    }
-    else
-        alert("Try Again!!");
-}
+// const secret = 7;
+// let flag = true;
+// let guess;
+// for (let i = 0; flag; i++) {
+//     guess = Number(prompt('Enter your guess between 1 and 10: '));
+//     if (guess == secret) {
+//         alert('Bingo!! You have guessed the number :)'); break;
+//     }
+//     else
+//         alert("Try Again!!");
+// }
 // //Task#5
 // for (let i = 1; i <= 30; i++) {
 //     if (i % 3 == 0) continue;
@@ -46,3 +46,11 @@ for (let i = 0; flag; i++) {
 // //הערך האחרון הוא 1 כי 0 מחזיר FALSE
 
 //Task#7
+// let i =0;
+// while(++i < 5)
+//     console.log(i);
+//This loop shows values from 1 to 4 because it add 1 to i before comparing it with 5
+let i = 0;
+while (i++ < 5)
+    console.log(i);
+//This loop shows values from 0 to 5 because it add 1 to i after comparing it with 5 
