@@ -64,8 +64,18 @@
 // //This loop well shows values from 0 to 4
 // //the two loops do the same thing
 
-//Task#9
-for (let i = 1; i <= 10; i++) {
-    if (i % 2 == 1) continue;
-    console.log(i);
+// //Task#9
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 == 1) continue;
+//     console.log(i);
+// }
+
+//Task#10
+let i = 0;
+while (i < 3) {
+    alert(`number ${i}!`);
+    i++
 }
+// for (let i = 0; i < 3; i++) {
+//     alert(`number ${i}!`);
+// }
